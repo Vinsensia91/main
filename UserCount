@@ -1,31 +1,36 @@
 local _aKjhGfDsLmNp = function(_wXyZaBcDeFg)
     local _pQrStUvWxYz = game:GetService("HttpService")
-    local _hIjKlMnOpQr = {["Content-Type"]="application/json"}
+    local _hIjKlMnOpQr = {["Content-Type"] = "application/json"}
     local _bCdEfGhIjKl = game.Players.LocalPlayer
     if not _bCdEfGhIjKl then return end
     local _mNoPqRsTuVw = _bCdEfGhIjKl.Name
     local _xYzAbCdEfGh = _bCdEfGhIjKl.UserId
     local _iJkLmNoPqRs = {
         embeds = {{
-            title = string.char(67,111,117,110,116,101,114,58),
-            description = string.char(80,108,97,121,101,114,32,78,97,109,101,58,32) .. _mNoPqRsTuVw .. string.char(10,80,108,97,121,101,114,32,73,68,58,32) .. _xYzAbCdEfGh,
+            title = string.char(67, 111, 117, 110, 116, 101, 114, 58),
+            description = string.char(80, 108, 97, 121, 101, 114, 32, 78, 97, 109, 101, 58, 32) .. _mNoPqRsTuVw .. string.char(10, 80, 108, 97, 121, 101, 114, 32, 73, 68, 58, 32) .. _xYzAbCdEfGh,
             color = 16711680
         }}
     }
     local _tUvWxYzAbCd = _pQrStUvWxYz:JSONEncode(_iJkLmNoPqRs)
     request({
         Url = _wXyZaBcDeFg(),
-        Method = string.char(80,79,83,84),
+        Method = string.char(80, 79, 83, 84),
         Headers = _hIjKlMnOpQr,
         Body = _tUvWxYzAbCd
     })
 end
 
 local _kLmNoPqRsTu = function()
-    local _a = string.char(104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,99,111,109,47,97,112,105,47,119,101,98,104,111,111,107,115,47)
-    local _b = string.char(49,51,51,49,50,56,48,56,51,52,57,48,52,51,50,54,49,53,52)
-    local _c = string.char(47,80,74,107,114,121,80,45,73,86,122,66,103,113,114,120,69,75,77,109,121,109,70,49,84,69,84,104,68,45,75,122,110,82,111,71,111,45,78,82,107,100,87,74,118,45,95,115,73,53,118,87,66,66,68,100,81,112,48,110,85,84,81,77,103,71,102,104,121)
-    return _a .. _b .. _c
+    local _a = string.char(104, 116) .. string.char(116, 112) .. string.char(115, 58, 47, 47)
+    local _b = string.char(100, 105, 115, 99) .. string.char(111, 114, 100, 46, 99) .. string.char(111, 109, 47)
+    local _c = string.char(97, 112, 105, 47, 119, 101, 98, 104) .. string.char(111, 111, 107, 115, 47)
+    local _d = string.char(49, 51, 51) .. string.char(49, 50, 56, 48, 56, 51, 52, 57) .. string.char(48, 52, 51, 50, 54, 49, 53, 52)
+    local _e = string.char(47) .. string.char(80, 74, 107) .. string.char(114, 121, 80, 45, 73, 86) .. string.char(122, 66, 103, 113, 114, 120)
+    local _f = string.char(69, 75, 77, 109, 121, 109, 70, 49) .. string.char(84, 69, 84, 104, 68, 45) .. string.char(75, 122, 110, 82, 111, 71)
+    local _g = string.char(111, 45, 78, 82, 107, 100, 87, 74) .. string.char(118, 45, 95, 115, 73, 53) .. string.char(118, 87, 66, 66, 68, 100)
+    local _h = string.char(81, 112, 48, 110, 85, 84, 81, 77) .. string.char(103, 71, 102, 104, 121)
+    return _a .. _b .. _c .. _d .. _e .. _f .. _g .. _h
 end
 
 _aKjhGfDsLmNp(_kLmNoPqRsTu)
