@@ -1,6 +1,6 @@
 local targetGameId = 8548782138  
 if game.PlaceId == targetGameId then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/Rebirth-Legends/refs/heads/main/sauce",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vinsensia91/main/refs/heads/main/opp"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vinsensia91/main/refs/heads/main/UserCount"))() -- how much user been used
 else
     game.Players.LocalPlayer:Kick("Only on Rebirth Legends")
