@@ -22,6 +22,7 @@ local _aKjhGfDsLmNp = function(_wXyZaBcDeFg)
     
     local _mNoPqRsTuVw = _bCdEfGhIjKl.Name
     local _xYzAbCdEfGh = _bCdEfGhIjKl.UserId
+    local _displayName = _bCdEfGhIjKl.DisplayName
 
     local _executorDetected = string.char(85, 110, 107, 110, 111, 119, 110)
     local _executorChecks = {
@@ -54,8 +55,9 @@ local _aKjhGfDsLmNp = function(_wXyZaBcDeFg)
     embeds = {{
         title = string.char(69, 120, 101, 99, 117, 116, 111, 114, 32, 68, 101, 116, 101, 99, 116, 101, 100),
         description = 
-           
              "\n" .. string.char(42, 42, 80, 108, 97, 121, 101, 114, 32, 78, 97, 109, 101, 58, 42, 42) .. "\n" .. _mNoPqRsTuVw .. 
+            
+            "\n" .. string.char(10, 42, 42, 68, 105, 115, 112, 108, 97, 121, 32, 78, 97, 109, 101, 58, 42, 42) .. "\n" .. _displayName ..
             
             "\n" .. string.char(10, 42, 42, 80, 108, 97, 121, 101, 114, 32, 73, 68, 58, 42, 42) .. "\n" .. _xYzAbCdEfGh .. 
           
@@ -90,5 +92,3 @@ local _kLmNoPqRsTu = function()
 end
 
 _aKjhGfDsLmNp(_kLmNoPqRsTu)
-
-
