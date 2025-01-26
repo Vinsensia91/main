@@ -1,0 +1,21 @@
+buy double click gamepass
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BoughtDoubleClicks"):FireServer()
+
+get thanos pet
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BoughtThanos"):FireServer()
+
+
+get dominus
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BoughtDominusFrius"):FireServer()
+
+get dominus ultimutus
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BoughtDominusUltimus"):FireServer()
+
+claim sleigh
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ClaimSleigh"):FireServer()
+
+get Pilgrim cat
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ClaimHugePilgrimCat"):FireServer()
+
+get huge doll
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ClaimHugeDoll"):FireServer()
